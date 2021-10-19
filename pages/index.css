@@ -1,0 +1,43 @@
+@import url(../normalize/normalize.css);
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/device/device.css);
+@import url(../blocks/device/__description/device__description.css);
+@import url(../blocks/device/__generate-button/device__generate-button.css);
+@import url(../blocks/device/__image-of-device/device__image-of-device.css);
+@import url(../blocks/device/__label-text/device__label-text.css);
+@import url(../blocks/device/__list-meta-value/device__list-meta-value.css);
+@import url(../blocks/device/__list-of-parameters/device__list-of-parameters.css);
+@import url(../blocks/device/__list-value/device__list-value.css);
+@import url(../blocks/device/__name-of-device/device__name-of-device.css);
+@import url(../blocks/device/__options/device__options.css);
+@import url(../blocks/device/__parameters/device__parameters.css);
+@import url(../blocks/device/__radio-element/device__radio-element.css);
+@import url(../blocks/device/__report-form/device__report-form.css);
+@import url(../blocks/device/__report-type/device__report-type.css);
+@import url(../blocks/device/__dropdown/device__dropdown.css);
+
+@import url(../blocks/header/__search-input/header__search-input.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__submit-button/header__submit-button.css);
+
+@import url(../blocks/report/report.css);
+@import url(../blocks/report/__check-image/report__check-image.css);
+@import url(../blocks/report/__data-list-header/report__data-list-header.css);
+@import url(../blocks/report/__data-list-item/report__data-list-item.css);
+@import url(../blocks/report/__data-list/report__data-list.css);
+@import url(../blocks/report/__item-buffer/report__item-buffer.css);
+@import url(../blocks/report/__item-date/report__item-date.css);
+@import url(../blocks/report/__item-offset/report__item-offset.css);
+@import url(../blocks/report/__item-slope/report__item-slope.css);
+@import url(../blocks/report/__item-user/report__item-user.css);
+@import url(../blocks/report/__list-header/report__list-header_buffer.css);
+@import url(../blocks/report/__list-header/report__list-header_data.css);
+@import url(../blocks/report/__list-header/report__list-header_offset.css);
+@import url(../blocks/report/__list-header/report__list-header_slope.css);
+@import url(../blocks/report/__list-header/report__list-header_user.css);
+@import url(../blocks/report/__list-header/report__list-header.css);
+@import url(../blocks/report/__title/report__title.css);

@@ -1,0 +1,20 @@
+.device__generate-button {
+  background-color: #4990E2;
+  color: white;
+	border: none;
+	margin-top: 52px;
+  width: 186px;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.16px;
+	text-align: center;
+}
+
+.device__generate-button:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}

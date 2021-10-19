@@ -1,0 +1,12 @@
+.report__check-image {
+	width:calc(0.882vw + 7.16px);
+	height: calc(0.882vw + 7.16px);
+	margin-left: 20px;
+	transform: translateY(3px);
+}
+
+@media all and (max-width: 720px) {
+	.report__check-image {
+		margin: 0;
+	}
+}

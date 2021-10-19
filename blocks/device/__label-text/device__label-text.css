@@ -1,0 +1,10 @@
+.device__label-text{
+	display: inline-block;
+	font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.16px;
+  text-align: left;
+	line-height: 20px;
+}

@@ -1,0 +1,18 @@
+.report__item-buffer {
+	margin-right: 40px;
+	width: 200px;
+	font-size: calc(0.735vw + 5.64px);
+  line-height: 15px;
+}
+
+@media all and (min-width:1000px) {
+	.report__item-buffer {
+		font-size: 13px;
+	}
+}
+
+@media all and (max-width: 720px) {
+	.report__item-buffer {
+		margin: 0;
+	}
+}

@@ -1,0 +1,18 @@
+.report__item-date {
+	width: 120px;
+  font-size: calc(0.882vw + 7.16px);
+  line-height: 19px;
+  color: #353535;
+}
+
+@media all and (min-width:1400px) {
+  .report__item-date{
+    font-size: 16px;
+  }
+}
+
+@media all and (max-width:720px) {
+  .report__item-date {
+    margin:0;
+  }
+}

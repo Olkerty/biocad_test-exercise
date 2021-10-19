@@ -1,0 +1,11 @@
+.report__data-list-header {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 25px;
+}
+
+@media all and (max-width:500px) {
+	.report__data-list-header {
+		margin: 0;
+	}
+}

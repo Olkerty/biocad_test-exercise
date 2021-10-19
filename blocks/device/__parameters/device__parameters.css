@@ -1,0 +1,18 @@
+.device__parameters {
+	background-color:	rgba(247, 247, 247, 1);
+	width: 550px;
+	height: 330px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 18.3px;
+	padding-right: 18.3px;
+}
+
+@media all and (max-width: 720px) {
+	.device__parameters {
+		height: unset;
+		margin-top: 30px;
+		width: 90%;
+		min-height: 330px;
+	}
+}

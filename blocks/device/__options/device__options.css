@@ -1,0 +1,14 @@
+.device__options{ 
+	margin-right: 65px;
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+}
+
+@media all and (max-width: 720px) {
+	.device__options {
+		margin: 0;
+		width: unset;
+		align-items: center;
+	}
+}

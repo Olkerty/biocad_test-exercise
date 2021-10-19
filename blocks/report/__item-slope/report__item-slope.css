@@ -1,0 +1,20 @@
+.report__item-slope {
+	padding: 0;
+	margin: 0;
+  line-height: 15px;
+	width: 100px;
+	margin-right: 20px;
+		font-size: calc(0.735vw + 5.64px);
+}
+
+@media all and (min-width:1000px){
+	.report__item-slope{
+		font-size: 13px;
+	}
+}
+
+@media all and (max-width:720px) {
+	.report__item-slope {
+		margin: 0;
+	}
+}

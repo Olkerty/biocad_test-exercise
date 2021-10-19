@@ -1,0 +1,14 @@
+.body {
+	font-family: TT Norms, serif;
+	background: #FFFFFF;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+}
+
+@media all and (max-width:500px) {
+	.body {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}

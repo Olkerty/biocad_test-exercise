@@ -1,0 +1,12 @@
+.device__dropdown {
+  border: 1px solid #E9E9E9;
+	background-color: #FFF;
+	appearance: none;
+	background-image: url(../../../images/arrowdown.svg);
+	background-position: top 12px right 12px;
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 30px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,16 @@
+.device {
+	display: flex;
+	flex-direction: row;
+}
+
+@media all and (min-width:1400px) {
+	.device {
+		justify-content: space-between;
+	}
+}
+
+@media all and (max-width: 720px) {
+	.device {
+		flex-direction: column;
+	}
+}

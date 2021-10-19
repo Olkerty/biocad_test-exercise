@@ -1,0 +1,9 @@
+.device__report-type {
+	margin: 0;
+	padding: 0;
+	width: 18px;
+	height: 18px;
+	border: 2px solid red;
+	border: none;
+	margin-right: 13px;
+}

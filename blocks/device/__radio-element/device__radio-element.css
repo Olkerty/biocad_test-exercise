@@ -1,0 +1,38 @@
+.device__radio-element {
+	margin-bottom: 12px;
+	padding: 0;
+	position: relative;
+	max-height: 18px;
+  font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.16px;
+	text-align: left;
+}
+
+.device__radio-element input[type=radio] {
+	display: none;
+}
+
+.device__radio-element label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	margin-right: 0;
+	user-select: none;
+}
+
+.device__radio-element label:before {
+	content: "";
+	display: inline-block;
+	transform: translateY(5px);
+	width: 20px;
+	height: 20px;
+	margin-right: 12px;
+	background: url(../../../images/checkbox.svg) 0 0 no-repeat;
+}
+ 
+.device__radio-element input[type=radio]:checked + label:before {
+	background: url(../../../images/checkbox_checked.svg) 0 0 no-repeat;
+}
